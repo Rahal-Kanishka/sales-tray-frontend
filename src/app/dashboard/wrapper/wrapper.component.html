@@ -19,10 +19,17 @@
 
   <p>
     <mat-toolbar color="primary">
-      <button mat-icon-button class="example-icon" (click)="isExpanded = !isExpanded">
-        <mat-icon>menu</mat-icon>
-      </button>
-      <span>Sales Manage System</span>
+      <div class="parent">
+        <div class="left">
+          <button mat-icon-button (click)="isExpanded = !isExpanded">
+            <mat-icon>menu</mat-icon>
+          </button>
+        </div>
+        <div class="center">
+          <h2>Sales Manage System</h2>
+        </div>
+        <div class="right"></div>
+      </div>
     </mat-toolbar>
   </p>
 
