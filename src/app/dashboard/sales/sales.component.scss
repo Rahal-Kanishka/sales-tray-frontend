@@ -7,15 +7,37 @@
 
 .sales-button {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.search-buttons {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item-search-button {
+  margin: 6px;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   img {
+     -webkit-border-radius: 10px; //for the images
+     -moz-border-radius: 10px; // for the images
+   }
+
 }
 
 .button-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 350px;
-  height: 200px;
+  justify-content: space-evenly;
+  width: 300px;
+  cursor: pointer;
 }
 
 
@@ -27,5 +49,5 @@
   flex-direction: column;
   justify-content: space-between;
   width: 350px;
-  height: 200px; // only for vertically align items
+  // height: 200px; // only for vertically align items
 }
