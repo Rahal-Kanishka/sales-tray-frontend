@@ -11,6 +11,8 @@ import { WrapperComponent } from './wrapper/wrapper.component';
 import { MatIconModule } from "@angular/material/icon";
 import { SalesComponent } from './sales/sales.component';
 import { SalesRepsComponent } from './sales-reps/sales-reps.component';
+import { CostComponent } from './cost/cost.component';
+import { MatTabsModule } from "@angular/material/tabs";
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { SalesRepsComponent } from './sales-reps/sales-reps.component';
     AnalysisComponent,
     WrapperComponent,
     SalesComponent,
-    SalesRepsComponent
+    SalesRepsComponent,
+    CostComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +30,8 @@ import { SalesRepsComponent } from './sales-reps/sales-reps.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatTabsModule
   ]
 })
 export class DashboardModule { }
