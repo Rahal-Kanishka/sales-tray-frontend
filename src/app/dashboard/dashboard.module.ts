@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { AnalysisComponent } from './analysis/analysis.component';
@@ -13,16 +12,19 @@ import { SalesComponent } from './sales/sales.component';
 import { SalesRepsComponent } from './sales-reps/sales-reps.component';
 import { CostComponent } from './cost/cost.component';
 import { MatTabsModule } from "@angular/material/tabs";
+import { SalesDashboardComponent } from './sales-dashboard/sales-dashboard.component';
+import { SalesWrapperComponent } from './sales-wrapper/sales-wrapper.component';
 
 
 @NgModule({
   declarations: [
-    DashboardComponent,
     AnalysisComponent,
     WrapperComponent,
     SalesComponent,
     SalesRepsComponent,
-    CostComponent
+    CostComponent,
+    SalesDashboardComponent,
+    SalesWrapperComponent
   ],
   imports: [
     CommonModule,
