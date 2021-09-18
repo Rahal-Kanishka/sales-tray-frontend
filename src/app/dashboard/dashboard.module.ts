@@ -14,6 +14,7 @@ import { CostComponent } from './cost/cost.component';
 import { MatTabsModule } from "@angular/material/tabs";
 import { SalesDashboardComponent } from './sales-dashboard/sales-dashboard.component';
 import { SalesWrapperComponent } from './sales-wrapper/sales-wrapper.component';
+import { CommonComponentsModule } from "../common-components/common-components.module";
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { SalesWrapperComponent } from './sales-wrapper/sales-wrapper.component';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
-    MatTabsModule
+    MatTabsModule,
+    CommonComponentsModule
   ]
 })
 export class DashboardModule { }
