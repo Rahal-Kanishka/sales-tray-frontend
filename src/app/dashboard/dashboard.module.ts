@@ -10,7 +10,6 @@ import { WrapperComponent } from './wrapper/wrapper.component';
 import { MatIconModule } from "@angular/material/icon";
 import { SalesComponent } from './sales/sales.component';
 import { SalesRepsComponent } from './sales-reps/sales-reps.component';
-import { CostComponent } from './cost/cost.component';
 import { MatTabsModule } from "@angular/material/tabs";
 import { SalesDashboardComponent } from './sales-dashboard/sales-dashboard.component';
 import { SalesWrapperComponent } from './sales-wrapper/sales-wrapper.component';
@@ -23,7 +22,6 @@ import { CommonComponentsModule } from "../common-components/common-components.m
     WrapperComponent,
     SalesComponent,
     SalesRepsComponent,
-    CostComponent,
     SalesDashboardComponent,
     SalesWrapperComponent
   ],
