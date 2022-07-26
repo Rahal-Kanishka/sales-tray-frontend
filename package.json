@@ -1,6 +1,13 @@
 {
-  "name": "sales-frontend",
+  "name": "sales-tray-frontend",
   "version": "0.0.0",
+  "description": "Angular based frontend for SalesTray application",
+  "author": "Rahal Danthanarayana",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rahal-Kanishka/sales-tray-frontend"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
