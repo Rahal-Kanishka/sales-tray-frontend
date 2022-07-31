@@ -18,4 +18,4 @@ phases:
       - echo build process finished, we should upload to S3 now
       - cd dist/$APP_NAME
       - ls -la
-      - aws s3 sync . s3://salestray-frontend-bucket
+      - aws s3 sync . s3://salestray-frontend-bucket --delete
