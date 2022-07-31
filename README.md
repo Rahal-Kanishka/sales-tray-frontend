@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## CICD Pipeline
 
-CICD Pipeline configured to ease the deployment of the change. I  used [AWS CodePipeline](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html) and [AWS CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html) with GitHub Webhooks. Therefor when ever I push changes to the master branch the CodeBuild is triggered and automatic build process starts.
+CICD Pipeline configured to ease the deployment of the change. I  used [AWS CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html) and [AWS CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html) with GitHub Webhooks. Therefor when ever I push changes to the master branch the CodeBuild is triggered and automatic build process starts.
 
 ## Deployment
 
