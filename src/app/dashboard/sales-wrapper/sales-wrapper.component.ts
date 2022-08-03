@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-sales-wrapper',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SalesWrapperComponent implements OnInit {
 
-  constructor() { }
+  constructor(private toastr: ToastrService) { }
 
   ngOnInit(): void {
+    this.toastr.success('Hey Guest User', 'Welcome to Sales Tray');
   }
 
 }
