@@ -5,9 +5,7 @@
 .parent {
   display: flex;
   width: 100%;
-}
-.left, .right {
-  flex: 1;
+  justify-content: space-between;
 }
 
 body {
