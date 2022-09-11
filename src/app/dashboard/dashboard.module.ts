@@ -15,6 +15,8 @@ import { SalesDashboardComponent } from './sales-dashboard/sales-dashboard.compo
 import { SalesWrapperComponent } from './sales-wrapper/sales-wrapper.component';
 import { CommonComponentsModule } from "../common-components/common-components.module";
 import { MatButtonModule } from "@angular/material/button";
+import { BackendService } from "../services/backend.service";
+import { AgGridModule } from "ag-grid-angular";
 
 
 @NgModule({
@@ -35,7 +37,11 @@ import { MatButtonModule } from "@angular/material/button";
     MatIconModule,
     MatTabsModule,
     MatButtonModule,
-    CommonComponentsModule
+    CommonComponentsModule,
+    AgGridModule
+  ],
+  providers: [
+    BackendService
   ]
 })
 export class DashboardModule { }
